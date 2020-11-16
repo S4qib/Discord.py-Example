@@ -2,7 +2,7 @@
 This is a building block to creating your first bot with discord.py!
 
 # Plans
-- I will soon make a open-source public bot made in discord.py which will be maintained unlike this respirotary.
+- I will soon make a open-source public bot made in discord.py which will be maintained unlike this repository.
 - Making a discord.js example
 - A client area made with flask and python which contacts the Pterodactyl API to make servers, create and delete users etc.
 
