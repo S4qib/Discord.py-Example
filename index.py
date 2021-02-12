@@ -42,11 +42,11 @@ async def _8ball(ctx, *, enquiry):
       "Yes",
       "No",
       "Maybe",
-      "Not sure"
-      "Absolutley"
-      "Nah"
-      "Ask me later"
-      "Yup"
+      "Not sure",
+      "Absolutley",
+      "Nah",
+      "Ask me later",
+      "Yup",
       "Eh, cant tell."]
     
 em = discord.Embed(title = 'The Magic EightBall Answers!',colour = discord.Colour.red())
