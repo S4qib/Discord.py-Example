@@ -7,7 +7,7 @@ PREFIX = '$'
 TOKEN = 'TOKEN-HERE'
 #Used to set the bot token.
 
-bot = commands.Bot(command_prefix=PREFIX, intents=discord.Intents.all())
+bot = commands.Bot(command_prefix=PREFIX, intents=discord.Intents.default())
 
 @bot.event()
 async def on_ready():
