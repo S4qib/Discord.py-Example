@@ -2,12 +2,12 @@ import discord
 from discord.ext import commands
 import random
 
-bot = commands.Bot(command_prefix=PREFIX)
-
 PREFIX = '$'
 #Used to set a prefix
 TOKEN = 'TOKEN-HERE'
 #Used to set the bot token.
+
+bot = commands.Bot(command_prefix=PREFIX, intents=discord.Intents.all())
 
 @bot.event()
 async def on_ready():
